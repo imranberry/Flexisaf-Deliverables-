@@ -13,7 +13,6 @@ def rock_paper_scissors():
     # Step 3: Generate computer choice
     computer_choice = random.choice(choices)
     print(f"Computer chose: {computer_choice}")
-
     # Step 4: Determine the winner
     if user_choice == computer_choice:
         print("It's a tie!")
